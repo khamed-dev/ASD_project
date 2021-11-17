@@ -1,2 +1,2 @@
-bank.BankCustomerAndAccountFactory
+finco.FincoCustomerAndAccountFactory
 finco.FincoGui
