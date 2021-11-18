@@ -4,14 +4,14 @@ the Bank, the Ccard, and thier framework Finco,
 
 ____________________________________________________
 
-The framework has its default GUI and CustomerAndAccountFactory;
+The framework has its default GUI and IFactory
 
 
 ____________________________________________________
 
 the Bank extends from the framework (white box),  
 and the Gui of the Bank extends from the framework's Gui, so we can customize the Bank's Gui,
-we also implement the ICustomerAndAccountFactory; providing the way to create a customer and the type of the account for the Bank;
+we also implement the IFactory providing the way to create a customer and the type of the account for the Bank;
 than we inject it in the framework,
 
 
@@ -19,7 +19,7 @@ ____________________________________________________
 
 the Ccard extends from the framework (white box),  
 and the Gui of the Ccard extends from the framework's Gui, so we can customize the Ccard's Gui,
-we also implement the ICustomerAndAccountFactory,
+we also implement the IFactory,
 providing the way to create a customer and the type of the account for the Ccard
 than we inject it in the framework,
 
